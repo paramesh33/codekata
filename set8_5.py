@@ -3,15 +3,14 @@ b=len(a)
 d=list(a)
 if b%2==0:
     c=b//2
-    for x in d:
-        if d[c]==x or d[c-1]==x:
+    for x in range(b):
+        if x==c or x==c-1:
             print('*',end='')
-        else:
-             print(x,end='')   
+        else:print(d[x],end='')
 else:
-    for x in d:
+    for x in range(b):
         c=b//2
-        if d[c]==x:
+        if x==c:
             print('*',end='')
         else:
-             print(x,end='')
+             print(d[x],end='')
