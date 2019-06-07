@@ -1,2 +1,3 @@
 s=input()
-print(s)
+a=s
+print(a)
