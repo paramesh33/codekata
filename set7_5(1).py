@@ -1,3 +1,3 @@
-s=input()
+s=str(input())
 a=s
 print(a)
