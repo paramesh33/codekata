@@ -7,5 +7,5 @@ for x in s:
     else:
         b.append(x)
 if d==0:
-    print('yes')
-else:print('no')
+    print('Yes')
+else:print('No')
