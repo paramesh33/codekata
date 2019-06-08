@@ -1,2 +1,3 @@
 a=int(input())
-print(a+273)
+kel=a+273
+print(kel)
